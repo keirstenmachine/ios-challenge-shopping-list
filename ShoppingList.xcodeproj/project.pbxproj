@@ -11,6 +11,7 @@
 		1A4A23221CCA8D2C003A4350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A23201CCA8D2C003A4350 /* Main.storyboard */; };
 		1A4A23241CCA8D2C003A4350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A23231CCA8D2C003A4350 /* Assets.xcassets */; };
 		1A4A23271CCA8D2C003A4350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A23251CCA8D2C003A4350 /* LaunchScreen.storyboard */; };
+		84035BA31CEBEE4E0049A24B /* GroceryTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84035BA21CEBEE4E0049A24B /* GroceryTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1A4A23231CCA8D2C003A4350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A4A23261CCA8D2C003A4350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A4A23281CCA8D2C003A4350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84035BA21CEBEE4E0049A24B /* GroceryTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				1A4A231C1CCA8D2C003A4350 /* AppDelegate.swift */,
 				1A4A23201CCA8D2C003A4350 /* Main.storyboard */,
+				84035BA21CEBEE4E0049A24B /* GroceryTaskViewController.swift */,
 				1A4A23231CCA8D2C003A4350 /* Assets.xcassets */,
 				1A4A23251CCA8D2C003A4350 /* LaunchScreen.storyboard */,
 				1A4A23281CCA8D2C003A4350 /* Info.plist */,
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A4A231D1CCA8D2C003A4350 /* AppDelegate.swift in Sources */,
+				84035BA31CEBEE4E0049A24B /* GroceryTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +286,7 @@
 				1A4A232D1CCA8D2C003A4350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
